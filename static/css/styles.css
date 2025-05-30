@@ -1,0 +1,38 @@
+:root {
+  --family1: "Ubuntu", sans-serif;
+  --size1: 10px;
+  --size2: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--family1);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.questões1, .resposta {
+  text-align: center;
+}
+
+.questões2 {
+  margin-left: var(--size1);
+}
+
+.main, .questões2, .footer-p {
+  font-size: var(--size2);
+  font-family: var(--family1);
+}
+
+.footer-p {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
